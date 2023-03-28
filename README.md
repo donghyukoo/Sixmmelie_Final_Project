@@ -1,70 +1,19 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225253560-a125c41c-2f45-4cf8-8c2a-94ab917b4c14.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225253901-9beae678-ea3f-487c-ac70-9a664a9cf449.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225253950-b54fb41e-a20e-46ed-ba3a-2ccae50ef0b4.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254009-e52c23fa-4692-4c04-89e0-0f297439fa68.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225254091-ff9ac544-a749-413e-b908-4a0805edd8af.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225254140-e3fe5e4a-cd8b-4e9d-841d-6974510f1a8b.png">
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/124125503/225254193-86537941-5374-4fdd-9643-84878aa74c85.png">
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/124125503/225254262-26c2c573-79de-4254-aebf-24bf51c4c08d.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254324-e59d243b-ab15-4d37-aca6-a61b622c2193.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254391-2302d2ba-7530-4938-a097-759cca7dee25.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254454-66387a3c-5a19-47bb-ae62-ac4c9ba82c70.png">
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/124125503/225254509-702771db-4854-47a0-bfb7-47e6dc1b8585.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225254561-bead9b43-3d60-4682-abdd-78cec480269d.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254606-5123bb4e-770d-4ee9-a4e3-a7bf35fb76a1.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254649-676a3bc7-5d53-460b-9200-d22e247d5402.png">
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/124125503/225254709-0fa08437-b889-4c39-9803-ddab6f11b168.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225254769-9d4ee1e4-3bad-4208-ae0d-8e8593a0c1bc.png">
+<img width="670" alt="image" src="https://user-images.githubusercontent.com/124125503/225254833-e3dad1fd-4733-4ba4-b887-9da60ad62685.png">
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/124125503/225254881-0f7b7beb-6238-4cb8-a6af-8cd0e51dacda.png">
