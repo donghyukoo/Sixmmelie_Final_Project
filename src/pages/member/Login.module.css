@@ -1,0 +1,65 @@
+.backgroundDiv{
+    height: 50vh;
+    width: 1500px;
+    display: flex;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /*background-color: #E8E8E8;*/
+    background-image: url(../../../public/images/login.jpg);
+    backdrop-filter: blur(20px);  
+}
+
+.loginDiv{    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    /* border: solid 1px black; */
+    border-radius: 25px;  
+    color: rgb(1, 30, 16);
+    
+}
+
+.loginDiv input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    text-indent: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.loginDiv a:hover {
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+    /* height: 30px; */
+    width: 220px;
+    border-radius: 25px;
+    background-color:rgb(167, 18, 18);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    
+}
+ .memDiv button:hover {
+    border-radius: 25px;
+    margin: 0;
+    /* font-Size: 15px; */
+    /* height: 25px; */
+    cursor:pointer;
+    display: inline-block; 
+    background-color:rgb(167, 18, 18);
+    color:white;
+}

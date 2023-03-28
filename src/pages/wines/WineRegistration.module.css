@@ -1,0 +1,131 @@
+.wineSection{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.wineInfoDiv{
+    display: flex;
+    width: 750px;
+    padding: 30px;
+}
+
+.wineInfoInput {    
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    text-indent: 0.5em;
+    padding: 7px;
+}
+
+.wineInfoDiv table {
+    width: 100%;
+}
+
+.textAreaStyle {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    resize: none;
+    padding: 150px;
+}
+
+.backButton, 
+.insertButton {
+    text-align: center;
+    margin-top: 15px;
+    border: 1px #C3ACB3 solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #C3ACB3 0%, #f0ecfc 74%);
+    float: right;
+}
+
+.wineUpdateBackBtn {
+    margin-right: 10px;
+}
+
+.wineUpdateBackBtn,
+.wineUpdateUpBtn,
+.wineUpdateInsertBtn {
+    text-align: center;
+    margin-top: 15px;
+    border: 1px #C3ACB3 solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #C3ACB3 0%, #f0ecfc 74%);
+    float: left;
+}
+
+.backButton:hover, 
+.insertButton:hover,
+.wineUpdateBackBtn:hover,
+.wineUpdateUpBtn:hover {
+    background-color: #ffffff;
+    border-color: #27013e;
+    color: #27013e;
+}
+
+.wineUpdateInsertBtn {
+    text-align: center;
+    margin-top: 15px;
+    border: 1px #C3ACB3 solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #9d52b8 0%, #aea2d1 74%);
+    float: left;
+}
+
+.wineUpdateInsertBtn:hover {
+    background-color: #ffffff;
+    border-color: #27013e;
+    color: #27013e;
+}
+
+.wineImageDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wineImage{
+    margin-top: 5px;
+    width: 80%;
+    height: 90%;    
+}
+
+.wineImageButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(113, 107, 107);
+    color: #f0ecfc;
+    font-weight: bold;
+}
+
+.inputAreaStyle {
+    height: 300px;
+    width: 450px;
+}

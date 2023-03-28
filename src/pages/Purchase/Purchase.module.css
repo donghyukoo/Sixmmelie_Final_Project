@@ -1,0 +1,71 @@
+.purchaseDiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    /* justify-content : center; */
+    /* flex-direction: row; */
+    border: solid #000 2px;
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    background-image: linear-gradient(
+        rgba(207, 207, 207, 0.295),
+        rgb(255, 255, 255)
+        ), url("../../../public/images/wine-1543170_640.jpg");
+        background-size: cover;
+    }
+
+.purchasInfoDiv {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchasInfoDiv1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchasInfoDiv1 th {
+    background: none;
+    border: none;
+}
+
+.purchasInfoDiv1 td {
+    background: none;
+    border: none;
+}
+
+.purchasInfoDiv1 button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border: solid #000 1px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.purchaseInput{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    text-indent: 1em;
+
+}

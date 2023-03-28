@@ -1,0 +1,202 @@
+/*레이어팝업*/
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* body {
+    margin: 100px;
+  } */
+  /**/
+
+  .popconts{
+    
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .popconts h3{
+    margin: 0 auto;
+  }
+
+  .popcontainer {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  
+  .pop-layer p.ctxt {
+    color: #666;
+    line-height: 25px;
+  }
+  /**/
+  .pop-layer .btn-r {
+    width: 100%;
+    margin: 10px 0 20px;
+    padding-top: 10px;
+    border-top: 1px solid #DDD;
+    text-align: right;
+  }
+  /**/
+  .poplayer {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 410px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #3571B5;
+    z-index: 10;
+  }
+  /**/
+  .dimlayer {
+    display: none;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+  /**/
+   .dimBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background-color: rgba( 0, 0, 0, 0.5 );
+    filter: alpha(opacity=50);
+  }
+  /**/
+   .poplayer {
+    display: block;
+  }
+
+
+  /* fadeIn */
+.hidden-layer {
+  display: none;
+  margin-top: 10px;
+}
+
+.fadeIn {
+  display: block;
+  animation: fadeIn 0s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* fadeOut */
+.show-layer {
+  margin-top: 10px;
+}
+
+.fadeOut {
+  animation: fadeOut 0.3s forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+  }
+}
+
+/*탭*/
+/* *{
+  margin:0; padding:0;
+  font-size:15px; 
+  line-height:1.3;
+} */
+ul{
+  list-style:none;
+}
+.tabmenuDiv { 
+  max-width:600px; 
+  margin: 0 auto; 
+  position:relative; 
+}
+.tabmenuDiv ul{
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  height: 210px;
+}
+.tabmenuDiv ul li{
+  display:  inline-block;
+  width:33.33%; 
+  /* float: left;   */
+  text-align:center; 
+  background :#f9f9f9;
+  line-height:40px;
+}
+.tabmenuDiv label{
+  display:block;
+  width:100%; 
+  height:40px;
+  line-height:40px;
+}
+.tabmenuDiv input[type="radio"]{
+  display:none;
+}
+
+.tabmenuDiv input:checked ~ label{
+  background:#ccc;
+}
+
+.tabmenuDiv input:checked ~ .tabCon{
+  display:block;
+}
+
+.tabmenuDiv .tabCon div{
+  text-align: center;
+}
+
+.tabCon{
+  display:none; 
+  width: 100%;
+  text-align:center; 
+  padding: 10px;
+  position:absolute; 
+  left:0; top:40px; 
+  box-sizing: border-box; 
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.tabCon Button {
+  background-color:rgb(167, 18, 18);
+  color: white;
+  font: bold;
+  height: 25px;
+  width: 100px;
+  border: #000 solid 1px;
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.tabCon Button:hover{
+  cursor: pointer;
+}
+
+.tabCon Input {
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  margin-top: 5px;
+  width: 95%;
+  
+}

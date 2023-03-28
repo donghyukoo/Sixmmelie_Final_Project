@@ -1,0 +1,37 @@
+
+.header {
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.kakao {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+}
+
+.email {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right: 50px;
+
+}
+
+.call {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right: 50px;
+
+}
+
+.kakao-talk-channel-chat-button{
+    size: 100px;
+}

@@ -1,0 +1,51 @@
+.list {
+   border-bottom: 1px solid #DDDDDD;
+}
+
+.name {
+   margin-top: 5%;
+   text-align: center;
+}
+
+.Header {
+   color: black;                    
+   display: inline-block;
+   background-color: white;         
+   margin: 0em;
+   font-size: larger;
+   position: relative;
+   width: 80%;
+   height: 40px;
+   padding-left: 10px;
+   padding-top: 5px;
+   text-align: left;
+   font-weight: bolder;
+}
+
+button {
+   border: 0;
+   background: none;
+   outline: none;
+}
+
+.content {
+   padding: 20px 30px 20px 10px;
+   border-top: 1px solid #DDDDDD;
+   background-color: #F8F8F8;
+   color: #554455
+}
+
+.content1 {
+   background-color: whitesmoke;
+   color: #554455;
+   font-weight: bolder;
+   text-align: center;
+   font-size: larger;
+   padding-top: 5px;
+}
+
+.all {
+   padding-left: 10%;
+   padding-right: 10%;
+}
+

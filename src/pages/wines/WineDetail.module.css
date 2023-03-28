@@ -1,0 +1,75 @@
+.descriptionDiv {
+    width: 100%;
+}
+
+.descriptionTable{
+    margin-right: 20%;
+    text-align: center;
+    width: 700px;
+    border-top: 1px solid #DDDDDD;
+    background-color: #F8F8F8;
+    color: #554455;    
+}
+
+.imgDiv{
+    margin-top: 5px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.imgDiv img {
+
+    margin: 5px;
+    width: auto;
+    height: 100%;
+}
+ 
+.BackBtn {
+    margin-right: 10px;
+}
+
+.PurchaseBtn, 
+.UpdateBtn, 
+.BackBtn {
+    text-align: center;
+    margin-top: 15px;
+    border: 1px #C3ACB3 solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #C3ACB3 0%, #f0ecfc 74%);
+}
+
+.PurchaseBtn:hover, 
+.UpdateBtn:hover, 
+.BackBtn:hover{
+    background-color: #ffffff;
+    border-color: #27013e;
+    color: #27013e;
+}
+
+.PurchaseBtn {
+    float: right;
+    margin-bottom: 15px;
+}
+
+.PurchaseInput {
+    margin-left: 70%;
+    margin-bottom: 15px;
+    font-size: 15px; 
+    margin-right: 15px;
+}
+
+h5 {
+    font-size: small;
+    float: right;
+    color: #554455;
+}

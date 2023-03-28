@@ -1,0 +1,23 @@
+.wineDiv{
+    width: 150px;
+    height: 300px;
+    flex-direction: column;
+    display: block;
+    text-align: left;
+    
+}
+
+.wineDiv img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.wineDiv h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    text-align: left;
+}

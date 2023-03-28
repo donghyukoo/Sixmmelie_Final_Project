@@ -1,0 +1,74 @@
+.winesDiv {
+    width: 75%;
+}
+
+.wineDiv {
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+.InsertBtn{
+    text-align: center;
+    margin-top: 15px;
+    border: 1px #C3ACB3 solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #C3ACB3 0%, #f0ecfc 74%);
+}
+
+.InsertBtn:hover{
+    background-color: #ffffff;
+    border-color: #27013e;
+    color: #27013e;
+}
+
+.wineSearch {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 50%;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #e8e8e8 0%, #f0ecfc 74%);
+}
+
+.wineSearch::placeholder {
+    color: #280618;
+    font-style: italic;
+}
+
+.wineSearch:focus {
+    outline: none;
+    border-color: #280618;
+    
+}
+
+.pagingBtn {
+    font-size: large;
+}
+
+
+.pagingBtn:hover {
+	color:#fff;
+	border:1px solid rgba(53, 52, 53, 0.625);
+	background-color:rgb(18, 17, 17);
+}
+
+.pagingBtn:focus {
+	color:#fff;
+	border:1px solid rgba(53, 52, 53, 0.625);
+	background-color:rgb(18, 17, 17);
+}

@@ -1,0 +1,80 @@
+.DetailDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.DetailDiv div{
+    width: 500px;
+    height: 350px;
+}
+
+.imgDiv{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.imgDiv img {
+    margin: 20px;
+    width: 60%;
+    height: 60%;
+}
+
+.imgDiv button {
+    margin: 5px;
+    height: 8%;
+    width: 80%;
+}
+
+.descriptionDiv{
+    display: flex; 
+    margin-top: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.infoInfoDiv{
+    display: flex;
+    margin-top: 50px;
+    height: 150%;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-indent: 0.5em;
+
+}
+   
+    
+
+.descriptionTable{ 
+    width: 80%;
+    height: 80%;
+}
+
+.reviewBtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+.modiButton{
+    margin-top: 10%;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #f0ecfc;
+    border: 1px #C3ACB3 solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    background-image: linear-gradient(315deg, #C3ACB3 0%, #f0ecfc 74%);
+    border-collapse: collapse;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.over19 {
+    color: white;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: blue;
+}
+
+.under19 {
+    color: white;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: red;
+    margin-left: 5%;
+}
+
+.box {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+}
+
+.miniBox {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    width: 100%;
+}
+

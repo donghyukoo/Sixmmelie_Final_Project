@@ -1,0 +1,11 @@
+.footerDiv {
+    margin-top: 50px;
+    border-top: solid 1px black;
+    display: 'flex';
+    flex-direction: 'center';
+    height: 5%;    
+}
+
+.navlink {
+    font-size: medium;
+}
